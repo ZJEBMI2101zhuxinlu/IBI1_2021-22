@@ -4,12 +4,17 @@ c= 271
 d= b-c
 e= a-b
 
-d=4218249
-e=19245301
+if d<<e:
+ print ("e is greater")
+else:
+ print ("d is greater")
 
-rate2020=d/c
-rate2021=e/b
+#e is greater. So 2021 has the greatest number of new COVID-19
 
-rate2020=15565.49446494465
-rate2021=3.562097844741758
+f= d/c
+g= e/b
 
+if f<<g:
+ print ("rate in 2021 is greater")
+else:
+ print ("rate in 2022 is greater")
