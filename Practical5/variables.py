@@ -9,7 +9,7 @@ if d<<e:
 else:
  print ("d is greater")
 
-#e is greater. So 2021 has the greatest number of new COVID-19
+#e is greater. So 2021 has the greatest number of new COVID-19.
 
 f= d/c
 g= e/b
