@@ -1,3 +1,4 @@
+#3.1 some simple math
 a= 19245301
 b= 4218520
 c= 271
@@ -11,11 +12,8 @@ else:
  print ("d is greater")
 #e is greater. So 2021 has the greatest number of new COVID-19 cases.
 
-f= d/c
-g= e/b
-print (f)
-print (g)
-if f<<g:
- print ("rate in 2021 is greater")
-else:
- print ("rate in 2022 is greater")
+#3.2 booleans
+X="x"
+Y="y"
+W= X and Y
+print (W)
