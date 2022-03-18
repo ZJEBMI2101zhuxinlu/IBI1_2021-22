@@ -14,13 +14,23 @@ else:
 
 #3.2 booleans
 X= True
-Y= False
+Y= True
 W= X and Y
 print (W)
 
 X= True
 Y= False
-W= X or Y
+W= X and Y
+print (W)
+
+X= False
+Y= True
+W= X and Y
+print (W)
+
+X= False
+Y= False
+W= X and Y
 print (W)
 
 X="x"
