@@ -11,7 +11,7 @@ print ("The risk of CHD in the offspring of a father of",age,"is",dir[int(age)])
 
 #construct a scatter plot from the data
 import matplotlib.pyplot as plt
-plt.scatter(paternal_age, chd, marker='o')
+plt.scatter(paternal_age,chd, marker='*', color= 'lightpink')
 plt.title('parental age vs offspring health')
 plt.xlabel('parental age')
 plt.ylabel('offspring health')
