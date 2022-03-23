@@ -5,6 +5,7 @@ print (sorted(marks))
 #a boxplot displaying the distribution of marks
 import matplotlib.pyplot as plt
 plt.boxplot(marks,
+            labels= ["Rob"],
             vert = True,
             whis = 1.5,
             patch_artist = True,
@@ -14,6 +15,7 @@ plt.boxplot(marks,
             showfliers = True,
             notch = False
             )
+plt.title("IBI scores")
 plt.ylabel('scores')
 plt.show()
 
