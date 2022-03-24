@@ -1,9 +1,10 @@
 I like IBI
-<<<<<<< HEAD
 I like git and github
-=======
->>>>>>> jo
 very much
 very very much
 !!!!!
 favorite
+
+I like sleeping
+I like eating
+:)
