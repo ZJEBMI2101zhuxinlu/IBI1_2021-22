@@ -12,7 +12,13 @@ print(covid_data.iloc[9:19,0:3:2])
 
 #“total cases” for all rows corresponding to Afghanistan
 my_columns = [False, False, False, False, True, False]
-print(covid_data.loc[covid_data['location']=='Afghanistan',my_columns])
+my_rows=[]
+for i in range(0,len(covid_data)):
+ if covid_data.loc[i,"location"] == "Afghanistan":
+     my_rows.append(True)
+ else:
+     my_rows.append(False)
+print(covid_data.loc[my_rows,my_columns])
 
 # the mean number of new cases and new deaths in China
 china_new_data=covid_data.loc[covid_data['location']=='China',['date','new_cases','new_deaths']]
@@ -26,7 +32,7 @@ print(new_deaths_mean)
 #a boxplot of new cases and new deaths in China worldwide
 x1=china_new_data["new_cases"]
 x2=china_new_data["new_deaths"]
-plt.boxplot([x1,x2],labels=['new_cases','new_deaths'])
+plt.boxplot([x1,x2],labels=['new_cases','new_deaths'],showfliers=False)
 plt.title("a boxplot of new cases and new deaths in China worldwide")
 plt.ylabel('number')
 plt.show()
