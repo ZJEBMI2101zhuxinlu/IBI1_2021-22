@@ -1,6 +1,6 @@
 Question: Are there places in the World where there have not yet been more than 10 total infections (as of 31 March)? If so, where are they?
 
-Line number: 56-58
+Line number: 55-57
 
 Result:
 Angola
