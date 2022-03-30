@@ -8,7 +8,7 @@ os.chdir("C:/Users/86183/IBI1/IBI1_2021-22/Practical7")
 covid_data=pd.read_csv("full_data.csv")
 
 #the first and third columns from rows 10-20
-print(covid_data.iloc[9:19,0:3:2])
+print(covid_data.iloc[9:20,0:3:2])
 
 #“total cases” for all rows corresponding to Afghanistan
 my_columns = [False, False, False, False, True, False]
