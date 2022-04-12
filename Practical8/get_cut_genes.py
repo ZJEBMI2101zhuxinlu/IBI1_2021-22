@@ -14,7 +14,7 @@ for i in range(len(gene)):
 		a=a.strip("['']")
 		b=str(re.findall(r'](.+)',gene[i]))
 		b=b.strip("['']")
-		c=len((b))
+		c=len(b)
 		result=result+'>'+f'{a:10}'+str(c)+'\n'+b+'\n'
 result=result[:-1]
 output.write(result)
