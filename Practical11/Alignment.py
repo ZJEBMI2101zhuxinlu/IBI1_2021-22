@@ -52,7 +52,7 @@ def alignment(seq1,seq2):
 		if seq1[i]!=seq2[i]:
 			edit_distance +=1
 	p=(1-edit_distance/len(seq1))*100
-	print('the percentage of identical amino acids is',p,'%')
+	print('the percentage of identical amino acids is '+str(p)+'%')
 	print('the alignment score is',score)
 alignment(human,mouse)
 alignment(human,random)
