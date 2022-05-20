@@ -4,6 +4,4 @@ IBI
 
 I love you!!!!
 
-please~~~
-
 :)
