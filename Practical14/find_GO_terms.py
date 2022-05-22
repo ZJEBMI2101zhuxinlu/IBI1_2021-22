@@ -4,7 +4,7 @@ import xml.dom.minidom
 domtree = xml.dom.minidom.parse("go_obo.xml")
 obo=domtree.documentElement
 terms=obo.getElementsByTagName('term')
-print('the total number of terms currently recorded in GO is:',len(terms))
+print('the total number of terms currently recorded in GO is',len(terms))
 
 dic={}
 for term in terms:
@@ -28,6 +28,7 @@ def counter(list_):
 
 totallist=[]
 translist=[]
+
 for term in terms:
 	childnodes=0
 	list0=[]
