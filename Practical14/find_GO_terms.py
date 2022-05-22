@@ -27,6 +27,7 @@ def counter(list_):
 	return len(list0)
 
 totallist=[]
+translist=[]
 for term in terms:
 	childnodes=0
 	list0=[]
@@ -34,13 +35,7 @@ for term in terms:
 	if ids in dic:
 		childnodes=counter(dic[ids])
 	totallist.append(childnodes)
-
-translist=[]
-for term in terms:
-	if 'translation' in term.getElementsByTagName('defstr')[0].childNodes[0].data:
-		ids=term.getElementsByTagName('id')[0].childNodes[0].data
-		if ids in dic:
-			childnodes=counter(dic[ids])
+	if 'translation' in term.getElementsByTagName("defstr")[0].childNodes[0].data:
 		translist.append(childnodes)
 
 import matplotlib.pyplot as plt
@@ -48,14 +43,14 @@ plt.boxplot(totallist,
 			labels= ["GO"],
             )
 plt.title("the distribution of childnodes across terms")
-plt.ylabel('childnodes')
+plt.ylabel('childnodes number')
 plt.show()
 
 plt.boxplot(translist,
-			labels= ["traslation GO"],
+			labels= ["translation GO"],
             )
-plt.title("the distribution of childnodes across translation terms")
-plt.ylabel('childnodes')
+plt.title("the distribution of childnodes across terms associated with translation")
+plt.ylabel('childnodes number')
 plt.show()
 
 avg1=sum(totallist)/len(totallist)
