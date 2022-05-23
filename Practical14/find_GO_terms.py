@@ -55,7 +55,6 @@ plt.show()
 
 avg1=sum(totallist)/len(totallist)
 avg2=sum(translist)/len(translist)
-print(avg1)
 if avg1>avg2:
 	print("The translation terms contain, on average, a smaller number of childnodes than the overall Gene Ontology.")
 if avg1<avg2:
