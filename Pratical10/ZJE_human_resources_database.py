@@ -6,7 +6,7 @@ class Staff:
 		self.role=role
 	def ZJE_resources(self):
 		full_name=self.first_name+' '+self.last_name
-		print(f'{full_name}, {self.location}, {self.role}')
+		print(f'full name:{full_name}, location:{self.location}, role:{self.role}')
 #example
-Robert_Young=Staff('Robert','Young','Edinburgh','faculty')
+Robert_Young=Staff('Robert','Young','Edinburgh','faculty') #you can change the staff information here
 Robert_Young.ZJE_resources()
