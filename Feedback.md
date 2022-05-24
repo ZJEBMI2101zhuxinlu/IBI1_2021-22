@@ -1,5 +1,6 @@
 The formative feedback found me lacking in two aspects:
 
+
 1. in Week5, for File pizza_party.py, the marker thought pseudocode could have been a bit more detailed, e.g. what is the while loop doing?
    
    So I add some pseudocode:
@@ -17,6 +18,7 @@ The formative feedback found me lacking in two aspects:
       
       "
 
+
 2. in Week6, for Parental age vs offspring health, the marker thought pseudocode could again be a bit more detailed.
   
    So I add some pseudocode:
@@ -30,7 +32,7 @@ The formative feedback found me lacking in two aspects:
       
       #make the paternal_age the key and make the chd the value
       
-        dir[paternal_age[i]]= chd[i] #add a key-value pair in the dictionary
+      dir[paternal_age[i]]= chd[i] #add a key-value pair in the dictionary
       
       print (dir) #print dictionary
 
@@ -45,6 +47,8 @@ The formative feedback found me lacking in two aspects:
       
       "
 
+
 You can see my formative feedback in 1082_marks.xlsx and check my improvement in Practical5:pizza_party.py and Practical6:offspring_health.py.
+
 
 In addition, I have added some pseudo-code and commit messages for some other files:)
