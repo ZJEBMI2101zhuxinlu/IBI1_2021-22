@@ -6,6 +6,7 @@ obo=domtree.documentElement
 terms=obo.getElementsByTagName('term')
 print('the total number of terms currently recorded in GO is',len(terms))
 
+#define a dictionary containing all the parent and child nodes, where parentnode is key and chilednode is value
 dic={}
 for term in terms:
 	is_as=[]
@@ -18,6 +19,7 @@ for term in terms:
 		else:
 			dic[is_a]=[ids]
 
+#define a function to counter all the childnodes
 def counter(list_):
 	for i in list_:
 		if i not in list0:
@@ -55,8 +57,12 @@ plt.show()
 
 avg1=sum(totallist)/len(totallist)
 avg2=sum(translist)/len(translist)
+print (avg2)
 if avg1>avg2:
 	print("The translation terms contain, on average, a smaller number of childnodes than the overall Gene Ontology.")
 if avg1<avg2:
 	print("The translation terms contain, on average, a greater number of childnodes than the overall Gene Ontology.")
 #The translation terms contain, on average, a greater number of childnodes than the overall Gene Ontology.
+
+
+#This code needs to run for approximately 3-5 minutes:)
