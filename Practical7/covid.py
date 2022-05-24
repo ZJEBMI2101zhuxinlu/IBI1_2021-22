@@ -8,7 +8,7 @@ os.chdir("C:/Users/86183/IBI1/IBI1_2021-22/Practical7") #the marker can change t
 covid_data=pd.read_csv("full_data.csv")
 
 #the first and third columns from rows 10-20
-print(covid_data.iloc[9:20,0:3:2]) # or [10:21]. Rob said they are all right:)
+print(covid_data.iloc[9:20,0:3:2]) #or[10:21]. Rob said they are all right:)
 
 #"total cases" for all rows corresponding to Afghanistan
 my_columns = [False, False, False, False, True, False]
