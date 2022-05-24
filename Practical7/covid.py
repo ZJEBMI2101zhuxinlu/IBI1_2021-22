@@ -26,11 +26,11 @@ china_new_data=covid_data.loc[covid_data['location']=='China',['date','new_cases
 print (china_new_data)
 china_dates=china_new_data.iloc[:,0]
 new_cases_mean=np.mean(china_new_data["new_cases"])
-print(new_cases_mean)
+print('the mean number of new cases:',new_cases_mean)
 new_deaths_mean=np.mean(china_new_data["new_deaths"])
-print(new_deaths_mean)
+print('the mean number of new death:',new_deaths_mean)
 rate=new_deaths_mean/new_cases_mean
-print (rate)
+print ('the death rate:',rate)
 
 #a boxplot of new cases and new deaths in China worldwide
 x1=china_new_data["new_cases"]
