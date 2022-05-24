@@ -4,13 +4,13 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 #import the .csv file works
-os.chdir("C:/Users/86183/IBI1/IBI1_2021-22/Practical7")
+os.chdir("C:/Users/86183/IBI1/IBI1_2021-22/Practical7") #the marker can change the path here:)
 covid_data=pd.read_csv("full_data.csv")
 
 #the first and third columns from rows 10-20
 print(covid_data.iloc[9:20,0:3:2])
 
-#“total cases” for all rows corresponding to Afghanistan
+#"total cases" for all rows corresponding to Afghanistan
 my_columns = [False, False, False, False, True, False]
 my_rows=[]
 for i in range(0,len(covid_data)):
