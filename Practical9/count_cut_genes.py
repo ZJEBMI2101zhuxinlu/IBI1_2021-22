@@ -21,3 +21,5 @@ if re.search(r'.fa$',new_file): #confirm the new file is in fasta format
 	output.write(result)
 	file.close()
 	output.close()
+	
+#Through this code, I have made an example fasta file. You can check it.
