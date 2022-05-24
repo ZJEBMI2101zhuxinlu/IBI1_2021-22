@@ -51,4 +51,4 @@ The formative feedback found me lacking in two aspects:
 You can see my formative feedback in 1082_marks.xlsx and check my improvement in Practical5:pizza_party.py and Practical6:offspring_health.py.
 
 
-In addition, I have added some pseudo-code and commit messages for some other files:)
+In addition, I have added some pseudocode and commit messages for some other files:)
