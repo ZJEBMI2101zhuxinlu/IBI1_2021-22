@@ -1,6 +1,6 @@
 import re
 import os
-os.chdir("/Users/86183/IBI1/IBI1_2021-22/Practical9")
+os.chdir("/Users/86183/IBI1/IBI1_2021-22/Practical9") #the marker can change the path here:)
 file=open('Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa')
 output=open('cut_genes.fa','w')
 se = file.read()
