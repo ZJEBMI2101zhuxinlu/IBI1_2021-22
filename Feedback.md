@@ -4,6 +4,7 @@ The formative feedback found me lacking in two aspects:
 1. in Week5, for File pizza_party.py, the marker thought pseudocode could have been a bit more detailed, e.g. what is the while loop doing?
    
    So I add some pseudocode:
+      
       "
       
       p=1 #define the number of pieces and start with 1
@@ -24,6 +25,7 @@ The formative feedback found me lacking in two aspects:
    So I add some pseudocode:
       
       "
+      
       dir= {} #first define an empty dictionary
       
       for i in range(len(paternal_age)): 
