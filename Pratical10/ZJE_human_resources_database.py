@@ -8,5 +8,10 @@ class Staff:
 		full_name=self.first_name+' '+self.last_name
 		print(f'full name:{full_name}, location:{self.location}, role:{self.role}')
 #example
-Robert_Young=Staff('Robert','Young','Edinburgh','faculty') #you can change the staff information here
+#you can change the staff information here
+first_name='Robert'
+last_name='Young'
+location='Edinburgh'
+role='faculty'
+Robert_Young=Staff(first_name,last_name,location,role)
 Robert_Young.ZJE_resources()
