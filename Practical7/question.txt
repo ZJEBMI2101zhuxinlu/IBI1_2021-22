@@ -3,6 +3,9 @@ Question: Are there places in the World where there have not yet been more than 
 Line number: 55-57
 
 Result:
+There are places in the World where there have not yet been more than 10 total infections.
+
+They are:
 Angola
 Anguilla
 Antigua and Barbuda
